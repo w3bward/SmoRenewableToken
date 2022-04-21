@@ -30,8 +30,8 @@ $Database   = "MyDatabase"
 
 $ConnectionInfo = [Microsoft.SqlServer.Management.Common.SqlConnectionInfo]::new($Server)
 $ConnectionInfo.DatabaseName = $Database
-$ConnectionInfo.AccessToken  = $AzRenewableToken
-$ConnectionInfo.UserName     = $AzRenewableToken.UserId
+$ConnectionInfo.AccessToken  = $SmoRenewableToken
+$ConnectionInfo.UserName     = $SmoRenewableToken.UserId
 
 $ServerConnection = [Microsoft.SqlServer.Management.Common.ServerConnection]::new($ConnectionInfo)
 $ServerInstance   = [Microsoft.SqlServer.Management.Smo.Server]::new($ServerConnection)
