@@ -30,7 +30,7 @@
     Copyright         = '(c) Bradley Edwards. All rights reserved.'
 
     # Description of the functionality provided by this module
-    # Description = ''
+    Description       = 'A module with a PowerShell implementation of IRenewableToken compatible with SMO.'
 
     # Minimum version of the PowerShell engine required by this module
     PowerShellVersion = '5.1'
@@ -100,24 +100,27 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags       = @(
+            Tags         = @(
+                'Sql',    
                 'SqlServer',
                 'SMO',
                 'Azure',
-                'New-SmoRenewableToken'
+                'Authentication',
+                'Database',
+                'AzureSql'
             )
 
             # A URL to the license for this module.
-            # LicenseUri = ''
+            LicenseUri   = 'https://github.com/w3bward/SmoRenewableToken/blob/main/LICENSE'
 
             # A URL to the main website for this project.
-            ProjectUri = 'https://github.com/w3bward/SmoRenewableToken'
+            ProjectUri   = 'https://github.com/w3bward/SmoRenewableToken'
 
             # A URL to an icon representing this module.
             # IconUri = ''
 
             # ReleaseNotes of this module
-            # ReleaseNotes = ''
+            ReleaseNotes = 'Initial Version'
 
             # Prerelease string of this module
             # Prerelease = ''
