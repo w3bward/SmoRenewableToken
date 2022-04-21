@@ -7,6 +7,12 @@ If you don't want to install the module for whatever reason, the copy of New-Smo
 - [SqlServer](https://www.powershellgallery.com/packages/SqlServer) >= v21.1.18256
 - [Az.Accounts](https://www.powershellgallery.com/packages/Az.Accounts) >= v2.7.3
 
+## Installation
+This module can be installed from the PSGallery by running
+```
+Install-Module SmoRenewableToken
+```
+
 ## Example Usage
 ### Getting an Smo.Server object and Smo.Database object
 Note: The account you use to connect with Connect-AzAccount must have the necessary permissions on the Azure SQL Server or Database instance you want to perform operations on
